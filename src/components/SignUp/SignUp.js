@@ -14,6 +14,7 @@ class SignUp extends Component{
 	}
 	
 	
+	
 	handleOnChange=(e)=>{
 		let fields=this.state.fields;
 		if(e.target.name!='imagePic')
