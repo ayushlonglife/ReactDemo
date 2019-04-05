@@ -12,6 +12,7 @@ class SignUp extends Component{
 			selectedFile:''
 		}
 	}
+	xu]fdsfdfdf
 	
 	
 	
