@@ -4,6 +4,7 @@ import {connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 class Home extends Component{
 	constructor(props){
+		console.log("hiii")
 		super(props);
 		this.state={
 			redirect:false
@@ -12,6 +13,7 @@ class Home extends Component{
 	}
 	
 	logout(){
+		console.log('yooo')
 		
 		sessionStorage.setItem('userData','');
 		sessionStorage.clear();
